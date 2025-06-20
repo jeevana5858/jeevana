@@ -1,0 +1,14 @@
+a=10
+b=20
+temp=a
+a=b
+b=temp
+print("with remp:a=",a,",b=",b)
+#without temporary Variable
+x=5
+y=15
+x,y=y,x
+print("without temp:",x,",y=",y)
+Output:
+with temp: a=20,b=10
+without temp: x=15,y=5
