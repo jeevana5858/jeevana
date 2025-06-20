@@ -1,0 +1,9 @@
+marks = int(input("Enter student marks: "))
+
+if marks >= 50:
+    print("Status: Passed")
+else:
+    print("Status: Failed")
+output
+Enter student marks: 65  
+Status: Passed
