@@ -1,0 +1,8 @@
+print("Even Number Series (2 to 20):")
+for i in range(2, 21):
+    if i % 2 == 0:
+        print(i, end=' ')
+print("\n")
+output
+Even Number Series (2 to 20):
+2 4 6 8 10 12 14 16 18 20
