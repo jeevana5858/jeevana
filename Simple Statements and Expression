@@ -1,0 +1,17 @@
+a, b = 3, 4
+a, b = b, a
+print("After exchange: a =", a, ", b =", b)
+
+x, y, z = 1, 2, 3
+x, y, z = z, x, y
+print("After circulation: x =", x, ", y =", y, ", z =", z)
+
+import math
+x1, y1 = 0, 0
+x2, y2 = 3, 4
+distance = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+print("Distance:", distance)
+output
+After exchange: a = 4 , b = 3  
+After circulation: x = 3 , y = 1 , z = 2  
+Distance: 5.0
