@@ -1,0 +1,24 @@
+text = input("Enter a string: ")
+
+# Reverse the string
+reversed_text = text[::-1]
+print("Reversed String:", reversed_text)
+
+# Count character occurrences
+char_to_count = input("Enter a character to count: ")
+count = text.count(char_to_count)
+print(f"Count of '{char_to_count}':", count)
+
+# Replace characters
+old_char = input("Enter the character to replace: ")
+new_char = input("Enter the new character: ")
+replaced_text = text.replace(old_char, new_char)
+print("String after replacement:", replaced_text)
+Output
+Enter a string: programming  
+Reversed String: gnimmargorp  
+Enter a character to count: g  
+Count of 'g': 2  
+Enter the character to replace: m  
+Enter the new character: a  
+String after replacement: prograaainag
