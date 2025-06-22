@@ -1,0 +1,6 @@
+t = (5, 1, 8, 3, 9)
+print("Maximum:", max(t))
+print("Minimum:", min(t))
+output:
+Maximum: 9
+Minimum: 1
