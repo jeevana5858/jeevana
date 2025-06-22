@@ -1,0 +1,31 @@
+def calculate_averages():
+    positive_sum = 0
+    negative_sum = 0
+    positive_count = 0
+    negative_count = 0
+    while True:
+        number = float(input("Enter a number (-1 to stop): "))
+        if number == -1:
+            break
+        elif number > 0:
+            positive_sum += number
+            positive_count += 1
+        elif number < 0:
+            negative_sum += number
+            negative_count += 1
+    positive_average = positive_sum / positive_count if positive_count > 0 else 0
+    negative_average = negative_sum / negative_count if negative_count > 0 else 0
+    print(f"Average of positive numbers: {positive_average:.2f}")
+    print(f"Average of negative numbers: {negative_average:.2f}")
+calculate_averages()
+output:
+Enter a number (-1 to stop): 5
+Enter a number (-1 to stop): -3
+Enter a number (-1 to stop): 0
+Enter a number (-1 to stop): 1
+Enter a number (-1 to stop): -1
+-1
+Average of positive numbers: 3.00
+Average of negative numbers: -3.00
+-1
+-1
