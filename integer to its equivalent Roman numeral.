@@ -1,0 +1,15 @@
+def to_roman(n):
+    val = [1000, 500, 100, 50, 10, 5, 1]
+    rom = ["M", "D", "C", "L", "X", "V", "I"]
+    res = ""
+    for i in range(len(val)):
+        while n >= val[i]:
+            res += rom[i]
+            n -= val[i]
+    return res
+
+num = int(input("Enter number: "))
+print("Roman numeral:", to_roman(num))
+output:
+Enter number: 1
+Roman numeral: I
